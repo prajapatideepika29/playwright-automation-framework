@@ -19,24 +19,4 @@ test('has title', async () => {
   await page.getByRole('link', { name: 'LinkedIn India: Log In or Sign Up' }).click();
   await expect(page).toHaveURL('https://linkedin.com');
 
-
-//    const acceptButton = page.locator('text=Accept all');
-//    if (await acceptButton.isVisible()) {
-//      await acceptButton.click();
-//    }
-
-//   await page.fill('input[name="q"]', 'Playwright automation');
-
-//   await page.locator('input[name="q"]').fill("Linkedin");
-
-//   await page.locator('input[name="q"]').click;
-  // console.log(await page.locator('cite[class="tjvcx GvPZzd cHaqb"]').textContent());
-
-  // await expect(page.locator('cite[class="tjvcx GvPZzd cHaqb"]')).toContainText('linkedin');
-
-
-
-
-
-
 });
